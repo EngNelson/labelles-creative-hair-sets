@@ -41,7 +41,7 @@ Welcome to the **Labelle's E-commerce Platform** – a robust, production-ready 
 This project uses a highly efficient [Turborepo](https://turbo.build/) monorepo structure.
 
 ```txt
-entry-ecommerce/
+labelle-ecommerce/
 ├── apps/
 │   ├── web/          # Next.js 16+ Customer Storefront
 │   ├── admin/        # Vite + React Admin Dashboard
