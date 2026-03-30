@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin/*
+Disallow: /dashboard/*
+
+# Host
+Host: https://entry.reactbd.com
+
+# Sitemaps
+Sitemap: https://entry.reactbd.com/sitemap.xml
