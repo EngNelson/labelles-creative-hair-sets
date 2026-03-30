@@ -92,4 +92,4 @@ We welcome contributions and open discussions! If you need help tailoring the pr
 
 ---
 
-**Created with ❤️ by the Entry Team & ReactBD**
+**Created with ❤️ by the BlueFlex Logic Team & ReactBD**
