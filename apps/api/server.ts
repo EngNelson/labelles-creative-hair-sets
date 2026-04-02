@@ -56,51 +56,51 @@ connectDB();
 const app: Application = express();
 
 // Enhanced CORS configuration
-const allowedOrigins: (string | undefined)[] = [
-  process.env.ADMIN_URL,
-  process.env.CLIENT_URL,
-  "https://admin-entry.vercel.app",
-  "https://entry.vercel.app",
-  "https://entry.reactbd.com",
-  "https://admin.entry.reactbd.com",
-  "http://localhost:3000",
-  "http://localhost:5173",
-  "http://localhost:8081",
-  "http://10.0.2.2:8081",
-  "http://10.0.2.2:8000",
-].filter(Boolean);
+// const allowedOrigins: (string | undefined)[] = [
+//   process.env.ADMIN_URL,
+//   process.env.CLIENT_URL,
+//   "https://admin-entry.vercel.app",
+//   "https://entry.vercel.app",
+//   "https://entry.reactbd.com",
+//   "https://admin.entry.reactbd.com",
+//   "http://localhost:3000",
+//   "http://localhost:5173",
+//   "http://localhost:8081",
+//   "http://10.0.2.2:8081",
+//   "http://10.0.2.2:8000",
+// ].filter(Boolean);
 
-app.use(
-  cors({
-    origin: function (
-      origin: string | undefined,
-      callback: (err: Error | null, allow?: boolean) => void,
-    ) {
-      // Allow requests with no origin (like mobile apps or curl requests)
-      if (!origin) return callback(null, true);
+// app.use(
+//   cors({
+//     origin: function (
+//       origin: string | undefined,
+//       callback: (err: Error | null, allow?: boolean) => void,
+//     ) {
+//       // Allow requests with no origin (like mobile apps or curl requests)
+//       if (!origin) return callback(null, true);
 
-      if (process.env.NODE_ENV === "development") {
-        return callback(null, true);
-      }
+//       if (process.env.NODE_ENV === "development") {
+//         return callback(null, true);
+//       }
 
-      // Check against allowed origins
-      if (allowedOrigins.indexOf(origin) !== -1) {
-        return callback(null, true);
-      }
+//       // Check against allowed origins
+//       if (allowedOrigins.indexOf(origin) !== -1) {
+//         return callback(null, true);
+//       }
 
-      // Allow Vercel preview deployments
-      if (origin.endsWith(".vercel.app")) {
-        return callback(null, true);
-      }
+//       // Allow Vercel preview deployments
+//       if (origin.endsWith(".vercel.app")) {
+//         return callback(null, true);
+//       }
 
-      console.log("Blocked by CORS:", origin);
-      callback(new Error("Not allowed by CORS"));
-    },
-    credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  }),
-);
+//       console.log("Blocked by CORS:", origin);
+//       callback(new Error("Not allowed by CORS"));
+//     },
+//     credentials: true,
+//     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+//     allowedHeaders: ["Content-Type", "Authorization"],
+//   }),
+// );
 
 // Increase body size limit for JSON and URL-encoded payloads
 app.use(express.json({ limit: "10mb" }));
