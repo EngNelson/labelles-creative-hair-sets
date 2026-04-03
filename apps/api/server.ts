@@ -101,6 +101,8 @@ const app: Application = express();
 //     allowedHeaders: ["Content-Type", "Authorization"],
 //   }),
 // );
+app.use(cors());
+
 
 // Increase body size limit for JSON and URL-encoded payloads
 app.use(express.json({ limit: "10mb" }));
