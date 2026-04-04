@@ -34,7 +34,7 @@ const ContactPage = () => {
     {
       icon: <Mail className="h-6 w-6 text-primary" />,
       title: "Email Address",
-      details: ["support@entry-ecommerce.com", "info@entry-ecommerce.com"],
+      details: ["support@labelle-ecommerce.com", "info@labelle-ecommerce.com"],
     },
     {
       icon: <Clock className="h-6 w-6 text-primary" />,
