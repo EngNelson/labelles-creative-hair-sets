@@ -26,7 +26,7 @@ const AboutPage = () => {
                 Our Story
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                Founded with a vision to redefine online retail, Entry Ecommerce
+                Founded with a vision to redefine online retail, Labelle Ecommerce
                 has been dedicated to connecting customers with high-quality,
                 authentic, and diverse products. We understand that modern
                 shoppers want reliability, speed, and variety, and we&apos;re

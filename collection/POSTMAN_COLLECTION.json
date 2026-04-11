@@ -1,7 +1,7 @@
 {
   "info": {
     "_postman_id": "babymart-api-collection",
-    "name": "Entry Ecommerce API",
+    "name": "Labelle Ecommerce API",
     "description": "Complete API collection for Entry Ecommerce E-commerce Platform\n\n## Setup Instructions:\n\n1. **Import Collection**: Import this JSON file into Postman\n2. **Set Environment Variables**:\n   - `base_url`: Your API base URL (e.g., http://localhost:8000)\n   - `token`: JWT token (will be auto-set after login)\n   - `user_id`: Current user ID (will be auto-set after login)\n\n3. **Authentication Flow**:\n   - Start with 'Auth > Login' to get your token\n   - Token will be automatically saved and used in subsequent requests\n\n4. **Test Order**:\n   - Auth → Users → Products → Categories → Brands → Cart → Orders → Purchases → Suppliers\n\n## Notes:\n- All protected endpoints require valid JWT token in Authorization header\n- Admin-only endpoints require user to have admin role\n- Use the Tests tab in each request to see auto-populated variables",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },

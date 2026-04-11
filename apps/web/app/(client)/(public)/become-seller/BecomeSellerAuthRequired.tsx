@@ -37,16 +37,16 @@ export default function BecomeSellerAuthRequired() {
               Authentication Required
             </h1>
             <p className="text-gray-300 relative z-10">
-              Please sign in to apply to become an Entry Seller
+              Please sign in to apply to become a Labelle Seller
             </p>
           </div>
 
           <div className="p-8 md:p-14 text-center bg-card">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Partner with Entry
+              Partner with Labelle
             </h2>
             <p className="text-muted-foreground mb-10 text-lg">
-              To apply as a seller and start selling your high-quality baby
+              To apply as a seller and start selling your high-quality hairs
               products on our platform, you need to securely authenticate. If
               you don't have an account yet, joining is completely free.
             </p>
