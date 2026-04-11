@@ -101,7 +101,12 @@ const app: Application = express();
 //     allowedHeaders: ["Content-Type", "Authorization"],
 //   }),
 // );
+
 app.use(cors());
+
+// Names
+// https://labelles-creative-hair-sets-admin.vercel.app
+// https://admin.labellecreativehair.com
 
 
 // Increase body size limit for JSON and URL-encoded payloads
@@ -163,7 +168,7 @@ app.use(
       .swagger-ui .info { margin: 50px 0 }
       .swagger-ui .scheme-container { background: #fafafa; padding: 30px 0 }
     `,
-    customSiteTitle: "Entry Ecommerce API Documentation",
+    customSiteTitle: "Labelle Ecommerce API Documentation",
     customfavIcon: "/favicon.ico",
     swaggerOptions: {
       persistAuthorization: true,
@@ -179,7 +184,7 @@ app.use(
 // Home route
 app.get("/", (req: Request, res: Response) => {
   res.json({
-    message: "Entry API is running...",
+    message: "Labelle API is running...",
     version: "1.0.0",
     environment: process.env.NODE_ENV,
     docs: `${req.protocol}://${req.get("host")}/api/docs`,

@@ -18,7 +18,7 @@ const options: Options = {
       {
         url:
           process.env.NODE_ENV === "production"
-            ? process.env.SERVER_URL || "https://api.entry.reactbd.com"
+            ? process.env.SERVER_URL || "https://api.labellecreativehair.com"
             : `http://localhost:${process.env.PORT || 8000}`,
         description:
           process.env.NODE_ENV === "production"
@@ -269,3 +269,6 @@ const specs = swaggerJSDoc(options);
 
 export { specs };
 export default specs;
+
+
+// https://api.entry.reactbd.com

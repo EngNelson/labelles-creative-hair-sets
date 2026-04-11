@@ -20,7 +20,7 @@ export const PAYMENT_CONFIG = {
 };
 
 export const APP_CONFIG = {
-  NAME: "BabyShop",
-  DESCRIPTION: "Your trusted online baby store",
+  NAME: "HairShop",
+  DESCRIPTION: "Your trusted online hair store",
   VERSION: "1.0.0",
 };
