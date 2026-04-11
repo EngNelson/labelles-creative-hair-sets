@@ -238,7 +238,7 @@ const ContactPage = () => {
                 </h3>
                 <div className="text-gray-700">
                   <p className="mb-2">
-                    <strong>Babyshop Headquarters</strong>
+                    <strong>Hairshop Headquarters</strong>
                   </p>
                   <p>123 Baby Street</p>
                   <p>Child City, BC 12345</p>

@@ -11,7 +11,7 @@ const OthersPage = () => {
       title: "Custom Products",
       icon: <Building2 size={32} />,
       description:
-        "Need custom baby products for your business or event? We offer custom manufacturing services.",
+        "Need custom hair products for your business or event? We offer custom manufacturing services.",
       features: [
         "Custom design and branding",
         "Minimum order quantities available",
