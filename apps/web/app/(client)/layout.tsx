@@ -60,13 +60,13 @@ async function fetchBaseConfig() {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://entry.reactbd.com"),
+  metadataBase: new URL("https://labellecreativehair.com"),
   title: {
-    default: "Entry Ecommerce Platform - Shop Online",
-    template: "%s | Entry",
+    default: "Labelle Ecommerce Platform - Shop Online",
+    template: "%s | Labelle",
   },
   description:
-    "Entry Ecommerce Platform — discover thousands of products at great prices. Trusted sellers, fast delivery, and secure payments. Your all-in-one online shopping destination.",
+    "Labelle Ecommerce Platform — discover thousands of products at great prices. Trusted sellers, fast delivery, and secure payments. Your all-in-one online shopping destination.",
   keywords: [
     "ecommerce",
     "online shopping",
@@ -76,9 +76,9 @@ export const metadata: Metadata = {
     "fast delivery",
     "secure payment",
   ],
-  authors: [{ name: "Entry Team" }],
-  creator: "Entry",
-  publisher: "Entry",
+  authors: [{ name: "Labelle Team" }],
+  creator: "Labelle",
+  publisher: "Labelle",
   formatDetection: {
     email: false,
     address: false,
@@ -87,9 +87,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "http://entry.reactbd.com",
-    siteName: "Entry Ecommerce Platform",
-    title: "Entry Ecommerce Platform - Shop Online",
+    url: "https://labellecreativehair.com",
+    siteName: "Labelle Ecommerce Platform",
+    title: "Labelle Ecommerce Platform - Shop Online",
     description:
       "Discover thousands of products at great prices. Trusted sellers, fast delivery, and secure payments.",
     images: [
@@ -97,17 +97,17 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Entry Ecommerce Platform",
+        alt: "Labelle Ecommerce Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Entry Ecommerce Platform",
+    title: "Labelle Ecommerce Platform",
     description:
       "Discover thousands of products at great prices with fast delivery.",
     images: ["/og-image.jpg"],
-    creator: "@entryecommerce",
+    creator: "@labelleecommerce",
   },
   robots: {
     index: true,
@@ -124,7 +124,7 @@ export const metadata: Metadata = {
     google: "your-google-site-verification-code",
   },
   alternates: {
-    canonical: "http://entry.reactbd.com",
+    canonical: "https://labellecreativehair.com",
   },
 };
 
