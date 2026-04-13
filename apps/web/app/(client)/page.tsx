@@ -19,8 +19,9 @@ import { cookies } from "next/headers";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: {
-    canonical: "http://entry.reactbd.com",
+    canonical: "https://labellecreativehair.com",
   },
+
 };
 export const dynamic = "force-dynamic";
 
