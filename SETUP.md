@@ -1,6 +1,6 @@
 # Setup Guide & Credentials
 
-Welcome to the **Entry E-commerce Platform**. To get your storefront, admin dashboard, and backend running locally, follow these steps closely.
+Welcome to the **Labelle E-commerce Platform**. To get your storefront, admin dashboard, and backend running locally, follow these steps closely.
 
 ---
 
@@ -15,14 +15,14 @@ Before starting, ensure you have the following installed on your machine:
 
 ## 2. Installation
 
-Extract the downloaded `entry-ecommerce.zip` file, open your terminal, and navigate into the extracted root directory:
+Extract the downloaded `labelle-ecommerce.zip` file, open your terminal, and navigate into the extracted root directory:
 
 ```bash
-cd entry-ecommerce
+cd labelle-ecommerce
 pnpm install
 ```
 
-When you run `pnpm install`, Turborepo will automatically link the shared packages (`@entry/ui`, `@entry/config`, `@entry/types`) so they are available to all apps.
+When you run `pnpm install`, Turborepo will automatically link the shared packages (`@labelle/ui`, `@labelle/config`, `@labelle/types`) so they are available to all apps.
 
 ## 3. Environment Variables Configuration
 

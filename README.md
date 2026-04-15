@@ -27,7 +27,7 @@ Welcome to the **Labelle's E-commerce Platform** – a robust, production-ready 
 
 ## 🛠️ Tech Stack & Tooling
 
-| Ecosystem        | Technologies                                                  |
+| Labelle          | Technologies                                                  |
 | ---------------- | ------------------------------------------------------------- |
 | **Monorepo**     | Turborepo, pnpm                                               |
 | **Frontend**     | Next.js 16+, React 19, Tailwind CSS, Shadcn UI, Framer Motion |
