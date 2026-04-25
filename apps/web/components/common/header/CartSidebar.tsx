@@ -147,12 +147,12 @@ export default function CartSidebar() {
                   />{" "}
                   more for{" "}
                   <span className="font-semibold text-green-600">
-                    free shipping
+                     shipping
                   </span>
                 </>
               ) : (
                 <span className="text-green-600 font-semibold">
-                  🎉 You've unlocked free shipping!
+                  🎉 You've unlocked shipping!
                 </span>
               )}
             </p>

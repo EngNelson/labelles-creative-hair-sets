@@ -11,7 +11,7 @@ const TopBanner = () => {
     <div className="w-full bg-primary text-primary-foreground py-2 text-sm font-medium border-b border-b-border/20">
       <Container className="flex items-center justify-between">
         <p className="text-center">
-          Black Friday Shopping{" "}
+          Mother's Shopping{" "}
           <span className="hidden md:inline-flex">
             and Small Business Saturday Deals!!!
           </span>
@@ -27,3 +27,5 @@ const TopBanner = () => {
 };
 
 export default TopBanner;
+
+//  Black Friday Shopping

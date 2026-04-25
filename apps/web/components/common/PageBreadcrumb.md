@@ -94,9 +94,9 @@ interface ShareData {
 <PageBreadcrumb
   items={[
     { label: "Shop", href: "/shop" },
-    { label: "Baby Clothes", href: "/shop?category=clothes" },
+    { label: "Hair Events", href: "/shop?category=events" },
   ]}
-  currentPage="Cute Baby Dress"
+  currentPage="Cute Hairs For Event"
   showSocialShare={true}
   shareData={{
     title: product.name,
@@ -115,7 +115,7 @@ interface ShareData {
   showSocialShare={true}
   shareData={{
     title: "Baby Clothes Collection",
-    text: "Browse our amazing collection of baby clothes",
+    text: "Browse our amazing collection of hairs fashion",
     url: window.location.href,
   }}
 />

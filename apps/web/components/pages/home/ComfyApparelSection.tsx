@@ -102,7 +102,7 @@ const ComfyApparelSection = () => {
                 <div className="bg-pink-50 rounded-lg p-4 mb-4">
                   <Shirt className="w-8 h-8 text-pink-600 mx-auto" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2">Baby Onesies</h3>
+                <h3 className="font-semibold text-lg mb-2">Hairs Onesies</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Soft and comfortable onesies for everyday wear
                 </p>
@@ -136,7 +136,7 @@ const ComfyApparelSection = () => {
                 <div className="bg-blue-50 rounded-lg p-4 mb-4">
                   <Sparkles className="w-8 h-8 text-blue-600 mx-auto" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2">Baby Rompers</h3>
+                <h3 className="font-semibold text-lg mb-2">Hairs Rompers</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Stylish rompers for active little ones
                 </p>
@@ -153,7 +153,7 @@ const ComfyApparelSection = () => {
                 <div className="bg-green-50 rounded-lg p-4 mb-4">
                   <Shirt className="w-8 h-8 text-green-600 mx-auto" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2">Baby Pants</h3>
+                <h3 className="font-semibold text-lg mb-2">Event Hairs</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Comfortable pants for crawling and playing
                 </p>
@@ -181,7 +181,7 @@ const ComfyApparelSection = () => {
                 variant="outline"
                 className="bg-white text-pink-500 border-white hover:bg-pink-50"
               >
-                Shop Sleepwear
+                Shop Hairswear
               </Button>
             </Link>
           </div>

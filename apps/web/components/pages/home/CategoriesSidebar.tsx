@@ -204,7 +204,7 @@ const CategoriesSidebar = async () => {
         <div className="bg-linear-to-r from-primary/10 to-primary/5 p-3 rounded-md">
           <div className="flex items-center gap-2 mb-2">
             <span className="text-primary">🎉</span>
-            <p className="font-medium text-sm">Free Shipping</p>
+            <p className="font-medium text-sm">Shipping</p>
           </div>
           <p className="text-xs text-gray-600 mb-2">On orders over $75</p>
           <Link

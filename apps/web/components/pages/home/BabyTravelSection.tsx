@@ -144,7 +144,7 @@ const BabyTravelSection = () => {
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Travel Bags</h3>
                 <p className="text-gray-600 text-sm mb-4">
-                  Organized storage for all your baby&apos;s travel needs
+                  Organized storage for all your hair&apos;s travel needs
                 </p>
                 <Link href="/shop?search=diaper bag">
                   <Button className="w-full bg-primary hover:bg-primary/90">
@@ -159,7 +159,7 @@ const BabyTravelSection = () => {
                 <div className="bg-orange-50 rounded-lg p-4 mb-4">
                   <MapPin className="w-8 h-8 text-orange-600 mx-auto" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2">Baby Carriers</h3>
+                <h3 className="font-semibold text-lg mb-2">Hairs Carriers</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Comfortable carriers for hands-free travel
                 </p>

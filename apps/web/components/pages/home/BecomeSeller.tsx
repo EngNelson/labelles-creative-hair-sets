@@ -162,15 +162,15 @@ const BecomeSeller = ({ config, isVendor }: BecomeSellerProps) => {
       <div className="relative z-10 max-w-2xl">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-4 text-xs font-medium text-white/90">
           <Store className="w-3.5 h-3.5" />
-          <span>Partner with Entry</span>
+          <span>Partner with Labelle</span>
         </div>
 
         <h2 className="text-2xl md:text-3xl font-bold mb-3 text-white">
-          Become a Seller on Entry
+          Become a Seller on Labelle
         </h2>
 
         <p className="text-gray-300 text-base md:text-lg mb-6 max-w-xl">
-          Join our marketplace and reach thousands of customers. Sell your baby
+          Join our marketplace and reach thousands of customers. Sell your hair
           products with ease and grow your business today.
         </p>
 
