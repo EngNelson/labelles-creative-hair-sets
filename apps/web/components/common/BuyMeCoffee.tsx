@@ -112,7 +112,7 @@ export default function BuyMeCoffee({
             whileHover={{ scale: 1.05 }}
           >
             <Code2 className="h-5 w-5 text-accent group-hover:rotate-12 transition-transform" />
-            <span className="hidden sm:inline">Source Code</span>
+            <span className="hidden sm:inline">Clasic Hairs</span>
           </motion.button>
         </DialogTrigger>
 
